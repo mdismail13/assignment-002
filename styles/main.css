@@ -104,6 +104,67 @@
 .h1-styles{
     color: #E95A08;
 }
+
+/* plant section styles */
+
+.plant{
+    max-width: 1140px;
+    margin: auto;
+}
+
+.plant-heading{
+    text-align: center;
+}
+.plant-title{
+    font-size: 3.125rem;
+}
+.plant-description{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1.5rem;
+    margin: 16px 126px 49px 126px;
+}
+.plant-cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.plant-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-title{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #111111;
+    margin-bottom: 2px;
+}
+.card-price{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.card-img{
+    width: 100%;
+}
+.our{
+    color: #E95A08;
+}
+
+input[type="button"]{
+    font-weight: 600;
+    color: #FFFFFF;
+    align-self: stretch;
+    padding: 19px 0px 19px 0px;
+    background-color: #E95A08;
+    border: none;
+}
+
+.card-imgs{
+    border: 1px solid;
+}
 /* responsive section */
 
 @media screen and (max-width:576px) {
