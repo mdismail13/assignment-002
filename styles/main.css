@@ -1,17 +1,68 @@
+/* font styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.font-bold{
+    font-weight: 700;
+}
+
+
+/* text-colors */
+
+.color-1{
+    color: #252432;
+}
+
+.color-2{
+    color: #8987A1;
+}
+
+.black{
+    color: #000000;
+}
+
+/* shared styles */
+
+
+/* navbar section styles */
+
 .navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-width: 1140px;
+    margin: 0 auto;
 }
 .list-items{
     display: flex;
     padding-left: 0;
     gap: 48px;
+    align-items: center;
 }
+
 .list-item{
     list-style: none;
 }
 
 .list-links{
     text-decoration: none;
+}
+
+/* responsive section */
+
+@media screen and (max-width:576px) {
+    .list-item:nth-child(1), .list-item:nth-child(2), .list-item:nth-child(3){
+        display: none;
+    }
+
+    .navbar{
+        margin: auto 16px;
+    }
 }
