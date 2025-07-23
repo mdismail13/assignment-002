@@ -14,17 +14,18 @@
 }
 
 
+
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
 
 
-.noto-serif-font{
+
+.noto-serif-font {
   font-family: "Noto Serif", serif;
   font-optical-sizing: auto;
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
 }
-
 
 /* text-colors */
 
@@ -53,7 +54,8 @@
     justify-content: space-between;
     align-items: center;
     max-width: 1140px;
-    margin: 0 auto;
+    margin:auto;
+    margin-top: 30px;
 }
 .list-items{
     display: flex;
@@ -75,32 +77,33 @@
 .banner{
     max-width: 1140px;
     margin: auto;
-    margin-top: 226px;
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: end;
+    margin-top: 226px;
+    margin-bottom: 120px;
+}
+.banner > div{
+    flex: 1;
 }
 
 .banner-title{
     font-size: 4rem;
-    margin-bottom: 13px;
+}
+.banner-description{
+    font-size: 1.4rem;
+    margin-top: 13px;
+    color: rgba(0, 0, 0, 0.5);
 }
 
-.banner-description{
-    font-size: 1.5rem;
-    color: rgba(0, 0, 0, 0.5);
+.banner-img{
+    display: block;
+    width: 100%;
 }
 
 .h1-styles{
     color: #E95A08;
 }
-
-.banner-img{ 
-    display: block; 
-}
-
-
-
 /* responsive section */
 
 @media screen and (max-width:576px) {
@@ -113,5 +116,22 @@
     }
     .nav-img{
         transform: scale(0.5) translate(-70px);
+    }
+
+    .banner{
+        flex-direction: column-reverse;
+        gap: 28px;
+        margin-top: 28px;
+    }
+
+    .banner-title{
+        font-size: 1.5rem;
+    }
+
+    .banner-description{
+        font-size: 0.875rem;
+    }
+    .banner-left{
+        margin: auto 16px;
     }
 }
