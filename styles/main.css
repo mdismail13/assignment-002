@@ -349,6 +349,9 @@ input[type="email"]{
     .banner-left{
         margin: auto 16px;
     }
+    .plant-lover{
+        gap: 18px;
+    }
     .plant-cards{
         grid-template-columns: repeat(2, 1fr);
     }
@@ -382,11 +385,26 @@ input[type="email"]{
         margin: auto 16px;
     }
 
-    
+    .info-title{
+        font-size: 1.5rem;
+    }
+
+    .join{
+        margin-bottom: 0;
+    }
+
+    .info-lists > *{
+    margin-bottom: 16px;
+}
+   
     .join-title{
         font-size: 1.25rem;
         margin-top: 110.5px;
+    }
 
+    .info-lists{
+    font-size: 0.875rem;
+    padding-left: 25px;
     }
     .join-btn{
         padding: 19px 12px;
