@@ -471,6 +471,7 @@ input[type="email"]{
     .plant-lover{
         flex-direction: column;
         margin: auto 16px;
+        margin-bottom: 143px;
     }
 
     .info-title{
@@ -516,4 +517,33 @@ input[type="email"]{
         grid-template-columns: 1fr;
     }
 
+    .ld-images{
+        flex-direction: column;
+        margin: auto 16px;
+        gap: 20px;
+    }
+    .ld-img-left{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .ld-main-title{
+        font-size: 1.5rem;
+    }
+    .ld-description{
+        margin: 16px 28.5px 51.5px;
+        font-size: 0.875rem;
+    }
+
+    .ld-img-3 .ld-title{
+    font-size: 1.25rem;
+}
+    .ld-img-3 .ld-links{
+    font-size: 1rem;
+    }
+    .ld-img-3{
+        padding: 64px 48px;
+    }
+    .latest-deals{
+        margin-bottom: 40.5px;
+    }
 }
