@@ -240,8 +240,8 @@ input[type="button"]{
 
 .ld-description{
     color: rgba(0, 0, 0, 0.5);
-    font-size: 1.3125rem;
-    margin: 16px 240px 120px;
+    font-size: 1.375rem;
+    margin: 16px 200px 120px;
 }
 
 .ld-images{
@@ -526,7 +526,7 @@ input[type="email"]{
     }
     .ld-description{
         margin: 16px 28.5px 51.5px;
-        font-size: 0.875rem;
+        font-size: 0.9rem;
     }
 
     .ld-img-3 .ld-title{
