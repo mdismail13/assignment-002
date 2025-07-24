@@ -305,19 +305,18 @@ input[type="button"]{
     color:white;
     font-weight: 600;
 }
+
 /* join section styles */
 
 .join{
     max-width: 1440px;
     margin: 0 auto;
-    border: 1px solid;
+    padding: 199px 355px 193px;
     text-align: center;
     background-image: url(../assets/news-letter-bg.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-
-
 }
 
 .join-title{
@@ -325,15 +324,11 @@ input[type="button"]{
     color: white;
     font-weight: 700;
     font-size: 3.125rem;
-    margin-top: 193px;
 }
 .input-items{
     display: flex;
     justify-content: center;
     align-items: justify;
-    margin-bottom: 199px;
-    margin-left: 355px;
-    margin-right: 355px;
 }
 
 input[type="email"]{
@@ -480,6 +475,7 @@ input[type="email"]{
 
     .join{
         margin-bottom: 0;
+        padding: 110.5px 36px 64.5px;
     }
 
     .info-lists > *{
@@ -488,7 +484,6 @@ input[type="email"]{
    
     .join-title{
         font-size: 1.25rem;
-        margin-top: 110.5px;
     }
 
     .info-lists{
@@ -500,7 +495,6 @@ input[type="email"]{
     }
 
     .input-items{
-        margin-bottom: 64.5px;
         margin-left: 36px;
         margin-right: 36px;
     }
