@@ -307,8 +307,13 @@ input[type="email"]{
         color: #6B7280;
     }
 
+    .footer-links{
+        display: flex;
+        align-items: center;
+        gap: 24px;
+    }
+
     .footer-link{
-        margin-right: 24px;
         text-decoration: none;
     }
 
