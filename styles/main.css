@@ -229,7 +229,6 @@ input[type="button"]{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    padding: 193px 355px 199px;
 
 
 }
@@ -239,11 +238,15 @@ input[type="button"]{
     color: white;
     font-weight: 700;
     font-size: 3.125rem;
+    margin-top: 193px;
 }
 .input-items{
     display: flex;
     justify-content: center;
     align-items: justify;
+    margin-bottom: 199px;
+    margin-left: 355px;
+    margin-right: 355px;
 }
 
 input[type="email"]{
@@ -260,6 +263,55 @@ input[type="email"]{
     color: white;
     background-color: #E95A08;
 }
+
+/* footer section styles */
+    .footer{
+        max-width: 1440px;
+        margin: 0 auto;
+        background-color: rgba(255, 255, 255, 0.5);     
+    }
+    
+    .footer-logo{
+        margin-bottom: 16px;
+    }
+    
+
+    .footer-description{
+        font-size: 1.5rem;
+        color: rgba(0, 0, 0, 0.5);
+    }
+
+    .footer-container{
+        display: flex;
+        justify-content: space-between;
+        max-width: 1140px;
+        margin: 0 auto;
+        align-items: start;
+        margin: 50px 160px;
+        gap: 110.67px;
+    }
+
+    .footer-container > *{
+        flex: 1;
+    }   
+
+    .footer-lists{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 110px;
+        row-gap: 32px;
+    }
+
+    .footer-list{
+        list-style: none;
+        color: #6B7280;
+    }
+
+    .footer-link{
+        margin-right: 24px;
+        text-decoration: none;
+    }
+
 
 /* responsive section */
 
@@ -325,13 +377,19 @@ input[type="email"]{
         margin: auto 16px;
     }
 
-    .join{
-        padding: 110.5px 36px 64.5px;
-    }
+    
     .join-title{
         font-size: 1.25rem;
+        margin-top: 110.5px;
+
     }
     .join-btn{
         padding: 19px 12px;
+    }
+
+    .input-items{
+        margin-bottom: 64.5px;
+        margin-left: 36px;
+        margin-right: 36px;
     }
 }
