@@ -392,4 +392,17 @@ input[type="email"]{
         margin-left: 36px;
         margin-right: 36px;
     }
+    .footer-container{
+        flex-direction: column;
+        margin: 50px 14px 50px 20px;
+        gap: 20px;
+    }
+
+    .footer-description{
+        font-size: 1rem;
+    }
+    .footer-lists{
+        grid-template-columns: 1fr;
+    }
+
 }
