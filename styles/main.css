@@ -166,6 +166,55 @@ input[type="button"]{
 .card-imgs{
     border: 1px solid;
 }
+
+/* information section styles */
+
+.information{
+    position: relative;
+    display: flex;
+    max-width: 1140px;
+    margin: auto;
+    gap: 60px;
+    align-items: center;
+    margin-bottom: 135px;
+}
+
+.trusted-badge{
+    position: absolute;
+    max-width: 286px;
+    max-height: 286px;
+    left: 347px;
+    top: -127px;
+    filter: drop-shadow(5px 5px 2px rgba(0, 0, 0, 0.5));
+}
+
+
+
+.information > div{
+    flex: 1;
+}
+
+.info-lists{
+    padding-left: 50px;
+}
+
+.info-left img{
+    display: block;
+    width: 100%;
+}
+
+.info-title{
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+}
+
+.info-lists{
+    font-size: 1.375rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+.info-lists > *{
+    margin-bottom: 20px;
+}
 /* responsive section */
 
 @media screen and (max-width:576px) {
