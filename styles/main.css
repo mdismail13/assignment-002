@@ -268,4 +268,14 @@ input[type="button"]{
     .card-price{
         margin-bottom: 30px;
     }
+    .trusted-badge{
+        display: none;
+    }
+    .plant{
+        margin-bottom: 42px;
+    }
+    .information{
+        flex-direction: column;
+        margin: auto 16px;
+    }
 }
